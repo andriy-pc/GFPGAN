@@ -68,10 +68,11 @@ Other recommended projects:<br>
 
 ## :wrench: Dependencies and Installation
 
-- Python >= 3.7 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
-- [PyTorch >= 1.7](https://pytorch.org/)
+- Python >= 3.7 <= 3.9.7
+- [PyTorch >= 1.7](https://pytorch.org/):
+- - Nvidia graphic card: `pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio===0.9.1 -f https://download.pytorch.org/whl/torch_stable.html`
+  -  AMD / Intel graphic card: `pip install torch torchvision torchaudio -f https://download.pytorch.org/whl/torch_stable.html`
 - Option: NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
-- Option: Linux
 
 ### Installation
 
